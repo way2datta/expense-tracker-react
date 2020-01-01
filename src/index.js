@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 
+window.APIUrl = "https://my-expense-tracker-api.herokuapp.com/api";
+
 // window.APIUrl = "http://localhost:3000/api";
 
 render(
